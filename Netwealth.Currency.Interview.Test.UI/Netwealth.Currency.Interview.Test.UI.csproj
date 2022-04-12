@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Netwealth.Currency.Interview.Test.UI.Business\Netwealth.Currency.Interview.Test.UI.Business.csproj" />
+    <ProjectReference Include="..\Netwealth.Currency.Interview.Test.UI.Shared\Netwealth.Currency.Interview.Test.UI.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

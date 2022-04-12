@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32127.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Netwealth.Currency.Interview.Test.UI", "Netwealth.Currency.Interview.Test.UI\Netwealth.Currency.Interview.Test.UI.csproj", "{5C9EC9AB-9A00-4965-BB1E-AA2001956D82}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Netwealth.Currency.Interview.Test.UI.Business", "Netwealth.Currency.Interview.Test.UI.Business\Netwealth.Currency.Interview.Test.UI.Business.csproj", "{73EE2634-137D-41C7-9172-B4345ED6C951}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netwealth.Currency.Interview.Test.UI.Shared", "Netwealth.Currency.Interview.Test.UI.Shared\Netwealth.Currency.Interview.Test.UI.Shared.csproj", "{45D0414B-D976-44F9-B161-95E8F93E345F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{071C2DDE-AA73-40E1-90B7-A671E0BF819B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netwealth.Currency.Interview.Test.UI.Tests", "Netwealth.Currency.Interview.Test.UI.Tests\Netwealth.Currency.Interview.Test.UI.Tests.csproj", "{84BA3CBE-DE79-4173-8DDC-124BD3B97A79}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C9EC9AB-9A00-4965-BB1E-AA2001956D82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C9EC9AB-9A00-4965-BB1E-AA2001956D82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C9EC9AB-9A00-4965-BB1E-AA2001956D82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C9EC9AB-9A00-4965-BB1E-AA2001956D82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73EE2634-137D-41C7-9172-B4345ED6C951}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73EE2634-137D-41C7-9172-B4345ED6C951}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73EE2634-137D-41C7-9172-B4345ED6C951}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73EE2634-137D-41C7-9172-B4345ED6C951}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45D0414B-D976-44F9-B161-95E8F93E345F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45D0414B-D976-44F9-B161-95E8F93E345F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45D0414B-D976-44F9-B161-95E8F93E345F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45D0414B-D976-44F9-B161-95E8F93E345F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84BA3CBE-DE79-4173-8DDC-124BD3B97A79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84BA3CBE-DE79-4173-8DDC-124BD3B97A79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84BA3CBE-DE79-4173-8DDC-124BD3B97A79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84BA3CBE-DE79-4173-8DDC-124BD3B97A79}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{84BA3CBE-DE79-4173-8DDC-124BD3B97A79} = {071C2DDE-AA73-40E1-90B7-A671E0BF819B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C304FA3D-1F69-4EC8-AA1D-F55C17AD31A6}
+	EndGlobalSection
+EndGlobal

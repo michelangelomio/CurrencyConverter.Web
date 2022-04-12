@@ -1,0 +1,52 @@
+﻿@model Netwealth.Currency.Interview.Test.UI.Business.ViewModels.ConvertCurrencyViewModel
+@{
+	ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+	<h1 class="display-4">Welcome</h1>
+</div>
+
+@using (Html.BeginForm("ConvertAmount", "Home", FormMethod.Post))
+{
+	@Html.HiddenFor(x => x.Currencies)
+	<div class="form-group row">
+		<label class="col-sm-2">Convert From:</label>
+		<div class="col-sm-10">
+			@Html.DropDownListFor(x => x.FromCurrency, @Model.Currencies)
+		</div>
+	</div>
+	<div class="form-group row">
+		<label for="staticEmail" class="col-sm-2">Amount:</label>
+		<div class="col-sm-10">
+			@Html.TextBoxFor(x => x.Amount, new {type = "number" })
+		</div>
+	</div>
+	<div class="form-group row">
+		<label class="col-sm-2">Convert To:</label>
+		<div class="col-sm-10">
+			@Html.DropDownListFor(x => x.ToCurrency, @Model.Currencies)
+		</div>
+	</div>
+
+	<input id="Submit" type="submit" value="Convert" onClick="this.form.submit(); this.disabled=true; this.value='Converting…'; "/>
+}
+
+@if (!string.IsNullOrEmpty(Model.ConversionResponse))
+{
+	if (Model.SuccessfullyConverted)
+	{
+		<br/>
+		<p>Converted amount: @Model.Amount @Model.FromCurrency = @Model.ConversionResponse @Model.ToCurrency</p>
+	}
+	else
+	{
+		<p>Error message: <br/> @Model.ConversionResponse</p>
+	}
+}
+
+
+
+
+
+
