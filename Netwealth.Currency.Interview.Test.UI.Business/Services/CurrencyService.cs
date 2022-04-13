@@ -26,7 +26,8 @@ namespace Netwealth.Currency.Interview.Test.UI.Business.Services
 
         public async Task<Result<double>> ConvertAmount(ConvertCurrencyViewModel data)
         {
-            return await _httpClient.Post<double>(ConvertApiUrl, data);
+            var path = string.Join("/", ConvertApiUrl, data.FromCurrency, data.ToCurrency, data.Amount);
+            return await _httpClient.Get<double>(path);
         }
     }
 }
